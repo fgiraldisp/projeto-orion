@@ -62,7 +62,7 @@ flowchart TD
 | Interface | Chatbot em Streamlit |
 | LLM | Ollama (modelo de linguagem local) |
 | Base de Conhecimento | Base estruturada em arquivos JSON/CSV contendo receitas, despesas, categorias, metas e histórico financeiro do usuário, com possibilidade de evolução para banco de dados relacional |
-| Validação | Checagem de consistência dos dados, restrição de respostas ao contexto financeiro fornecido e tratamento de ausência de informações para reduzir alucinações |
+| Validação | Checagem de consistência dos dados, restrição de respostas ao contexto financeiro fornecido e tratamento de ausência de informações para evitar inferências indevidas |
 
 ---
 
@@ -70,27 +70,27 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [X] O agente responde apenas com base nos dados financeiros fornecidos pelo usuário
-- [X] Não inventa valores, categorias ou informações não disponíveis
-- [X] Realiza checagem de consistência antes de gerar análises (ex: receitas, despesas e saldo)
-- [X] Quando não há dados suficientes, informa explicitamente e solicita informações adicionais
-- [X] Utiliza regras de negócio para validar cálculos e evitar conclusões incorretas
-- [X] Restringe suas respostas ao contexto de orçamento pessoal e controle financeiro
-- [X] Evita recomendações genéricas ou sem base nos dados analisados
-- [X] Não realiza recomendações de investimento sem informações adequadas do usuário
+- [x] O agente responde apenas com base nos dados financeiros fornecidos pelo usuário
+- [x] Não inventa valores, categorias ou informações não disponíveis
+- [x] Realiza checagem de consistência antes de gerar análises (ex: receitas, despesas e saldo)
+- [x] Quando não há dados suficientes, informa explicitamente e solicita informações adicionais
+- [x] Utiliza regras de negócio para validar cálculos e evitar conclusões incorretas
+- [x] Restringe suas respostas ao contexto de orçamento pessoal e controle financeiro
+- [x] Evita recomendações genéricas ou sem base nos dados analisados
+- [x] Não realiza recomendações de investimento sem informações adequadas do usuário
 
       
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-- [X] O agente não tem como objetivo substituir um consultor financeiro profissional
-- [X] Não toma decisões pelo usuário, apenas orienta]
-- [X] Não prevê mercado financeiro ou rentabilidade de investimentos
-- [X] Não realiza análises sem dados suficientes
-- [X] Não acessa dados externos ou em tempo real (ex: mercado financeiro, inflação, etc.)
-- [X] Não garante resultados financeiros, apenas sugere melhorias
-- [X] Não identifica fraudes ou comportamentos ilegais
-- [X] Não armazena ou manipula dados sensíveis além do necessário para análise
+- [x] O agente não tem como objetivo substituir um consultor financeiro profissional, atuando apenas como ferramenta de apoio à decisão
+- [x] Não toma decisões pelo usuário, apenas orienta
+- [x] Não prevê mercado financeiro ou rentabilidade de investimentos
+- [x] Não realiza análises sem dados suficientes
+- [x] Não acessa dados externos ou em tempo real (ex: mercado financeiro, inflação, etc.)
+- [x] Não garante resultados financeiros, apenas sugere melhorias
+- [x] Não identifica fraudes ou comportamentos ilegais
+- [x] Não armazena ou manipula dados sensíveis além do necessário para análise
 
 ### Considerações Finais
 
