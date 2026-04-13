@@ -35,9 +35,9 @@ O Orion se comporta de forma consultiva, analítica e proativa, atuando como um 
 O Orion utiliza um tom técnico e acessível, equilibrando precisão nas análises com uma comunicação clara e compreensível. Ele evita jargões excessivos, mas mantém um nível de formalidade profissional, garantindo que o usuário entenda facilmente as informações sem perder a qualidade e a confiabilidade das orientações.
 
 ### Exemplos de Linguagem
-- Saudação: ["“Olá. Vamos analisar sua situação financeira e identificar oportunidades de melhoria.”]
-- Confirmação: [“Entendi. Vou processar seus dados e comparar com o planejamento.”]
-- Erro/Limitação: [“Não tenho dados suficientes para essa análise. Você pode me informar os valores necessários?”]
+- Saudação: “Olá. Vamos analisar sua situação financeira e identificar oportunidades de melhoria.”
+- Confirmação: “Entendi. Vou processar seus dados e comparar com o planejamento.”
+- Erro/Limitação: “Não tenho dados suficientes para essa análise. Você pode me informar os valores necessários?”
 
 ---
 
@@ -59,10 +59,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [Chatbot em Streamlit] |
-| LLM | [Ollama(IA local)] |
-| Base de Conhecimento | [Base estruturada em arquivos JSON/CSV contendo receitas, despesas, categorias, metas e histórico financeiro do usuário] |
-| Validação | [Checagem de consistência dos dados, restrição de respostas ao contexto financeiro fornecido e tratamento de ausência de informações para reduzir alucinações] |
+| Interface | Chatbot em Streamlit |
+| LLM | Ollama (modelo de linguagem local) |
+| Base de Conhecimento | Base estruturada em arquivos JSON/CSV contendo receitas, despesas, categorias, metas e histórico financeiro do usuário, com possibilidade de evolução para banco de dados relacional |
+| Validação | Checagem de consistência dos dados, restrição de respostas ao contexto financeiro fornecido e tratamento de ausência de informações para reduzir alucinações |
 
 ---
 
@@ -70,24 +70,28 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [O agente responde apenas com base nos dados financeiros fornecidos pelo usuário]
-- [ ] [Não inventa valores, categorias ou informações não disponíveis]
-- [ ] [Realiza checagem de consistência antes de gerar análises (ex: receitas, despesas e saldo)]
-- [ ] [Quando não há dados suficientes, informa explicitamente e solicita informações adicionais]
-- [ ] [Utiliza regras de negócio para validar cálculos e evitar conclusões incorretas]
-- [ ] [Restringe suas respostas ao contexto de orçamento pessoal e controle financeiro]
-- [ ] [Evita recomendações genéricas ou sem base nos dados analisados]
-- [ ] [Não realiza recomendações de investimento sem informações adequadas do usuário]
+- [X] O agente responde apenas com base nos dados financeiros fornecidos pelo usuário
+- [X] Não inventa valores, categorias ou informações não disponíveis
+- [X] Realiza checagem de consistência antes de gerar análises (ex: receitas, despesas e saldo)
+- [X] Quando não há dados suficientes, informa explicitamente e solicita informações adicionais
+- [X] Utiliza regras de negócio para validar cálculos e evitar conclusões incorretas
+- [X] Restringe suas respostas ao contexto de orçamento pessoal e controle financeiro
+- [X] Evita recomendações genéricas ou sem base nos dados analisados
+- [X] Não realiza recomendações de investimento sem informações adequadas do usuário
 
       
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-- [ ] [Não substitui um consultor financeiro profissional]
-- [ ] [Não toma decisões pelo usuário, apenas orienta]
-- [ ] [Não prevê mercado financeiro ou rentabilidade de investimentos]
-- [ ] [Não realiza análises sem dados suficientes]
-- [ ] [Não acessa dados externos ou em tempo real (ex: mercado financeiro, inflação, etc.)]
-- [ ] [Não garante resultados financeiros, apenas sugere melhorias]
-- [ ] [Não identifica fraudes ou comportamentos ilegais]
-- [ ] [Não armazena ou manipula dados sensíveis além do necessário para análise]
+- [X] O agente não tem como objetivo substituir um consultor financeiro profissional
+- [X] Não toma decisões pelo usuário, apenas orienta]
+- [X] Não prevê mercado financeiro ou rentabilidade de investimentos
+- [X] Não realiza análises sem dados suficientes
+- [X] Não acessa dados externos ou em tempo real (ex: mercado financeiro, inflação, etc.)
+- [X] Não garante resultados financeiros, apenas sugere melhorias
+- [X] Não identifica fraudes ou comportamentos ilegais
+- [X] Não armazena ou manipula dados sensíveis além do necessário para análise
+
+### Considerações Finais
+
+O agente Orion foi projetado para evoluir com a maturidade financeira do usuário, podendo futuramente incorporar análises preditivas, integração com bancos de dados e dashboards interativos
