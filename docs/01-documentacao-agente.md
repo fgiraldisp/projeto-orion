@@ -83,4 +83,11 @@ flowchart TD
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- [ ] [Não substitui um consultor financeiro profissional]
+- [ ] [Não toma decisões pelo usuário, apenas orienta]
+- [ ] [Não prevê mercado financeiro ou rentabilidade de investimentos]
+- [ ] [Não realiza análises sem dados suficientes]
+- [ ] [Não acessa dados externos ou em tempo real (ex: mercado financeiro, inflação, etc.)]
+- [ ] [Não garante resultados financeiros, apenas sugere melhorias]
+- [ ] [Não identifica fraudes ou comportamentos ilegais]
+- [ ] [Não armazena ou manipula dados sensíveis além do necessário para análise]
