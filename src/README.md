@@ -67,3 +67,18 @@ Essa arquitetura reduz custo, melhora performance e aumenta a confiabilidade das
 - ***requirements.txt***
   Lista as bibliotecas necessárias para execução do projeto.
 ---
+## Exemplo de `requirenents.txt`
+  - `streamlit`
+  - `pandas`
+  - `python-dotenv`
+  - `requests`
+---
+## Como rodar
+
+ - Instalar dependências
+    - `pip install -> requirements.txt`
+ - Executar a aplicação
+    - `streamlit run src/app.py`
+---
+    
+
