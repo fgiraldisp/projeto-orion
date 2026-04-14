@@ -3,6 +3,7 @@
 A base de conhecimento do agente Orion é composta por arquivos estruturados em JSON e CSV, responsáveis por armazenar dados do usuário, histórico de interações, planejamento financeiro e transações realizadas.
 
 Esses dados são utilizados como fonte primária para análise financeira, permitindo ao agente interpretar o comportamento do usuário, comparar valores planejados com realizados e gerar insights personalizados de forma consistente e baseada em dados.
+Essa estrutura permite maior controle, transparência e escalabilidade na evolução do sistema.
 
 ### Dados Utilizados
 
