@@ -1,0 +1,16 @@
+{
+  "nome": "Flavio",
+  "faixa_renda_mensal": 5000.00,
+  "objetivos_financeiros": [
+    "melhorar controle do orçamento",
+    "reduzir gastos desnecessários",
+    "aumentar capacidade de investimento"
+  ],
+  "perfil_acompanhamento": "mensal",
+  "categorias_prioritarias": [
+    "alimentacao",
+    "assinaturas",
+    "transporte"
+  ],
+  "preferencia_resposta": "tecnica e acessivel"
+}
