@@ -2,7 +2,7 @@
 
 ## 🧠 Descrição
 
-Este repositório contém o código fonte do **Orion**, desenvolvido para análise de orçamento pessoal com suporte a processamento local em Python e geração de respostas em linguagem natural. Ele é um agente financeiro inteligente desenvolvido para auxiliar no controle e análise de orçamento pessoal, transformando dados de receitas, despesas e planejamento financeiro em **insights claros, objetivos e acionáveis**, permitindo ao usuário tomar decisões financeiras mais conscientes.
+Este repositório contém o código-fonte do **Orion**, desenvolvido para análise de orçamento pessoal com suporte a processamento local em Python e geração de respostas em linguagem natural. Ele é um agente financeiro inteligente desenvolvido para auxiliar no controle e análise de orçamento pessoal, transformando dados de receitas, despesas e planejamento financeiro em **insights claros, objetivos e acionáveis**, permitindo ao usuário tomar decisões financeiras mais conscientes.
 
 ---
 
