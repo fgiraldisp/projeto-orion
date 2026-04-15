@@ -94,13 +94,54 @@ Essa arquitetura reduz custo, melhora performance e aumenta a confiabilidade das
 ---
 ## Funcionalidades
 
-[x] Cálculo automático de saldo
-[x] Comparação entre planejado e realizado
-[x] Identificação de padrões de consumo
-[x] Geração de insights financeiros
-[x] Recomendações práticas para o uusário
-[x] Interface Interativa com Streamlit
+- [x] Cálculo automático de saldo
+- [x] Comparação entre planejado e realizado
+- [x] Identificação de padrões de consumo
+- [x] Geração de insights financeiros
+- [x] Recomendações práticas para o uusário
+- [x] Interface Interativa com Streamlit
 ---
-  
-    
+## Exemplo de Analise
+
+  - Entrada:
+    - Receita: R$ 5.000,00
+    - Saída: R$ 625,40
+  - Saída dp Orion:
+    - Saldo positivo de R$ 4.374,60
+    - Nenhuma categoria ultrapassou o orçamento
+    - Situação financeira estável
+---  
+## Segurança e Confiabilidade
+  O Orion foi projetado para minimizar erros e alucinações:
+  - [x] Utiliza apenas dados fornecidos
+  - [x] Não inventa informações
+  - [x] Realiza processamento local antes da IA
+  - [x] Solicita mais dados quando necessário
+  - [x] Não faz recomendações sem contexto
+---
+## Limitações
+  1. Não substitui um consultor financeiro profissional
+  2. Não realiza previsões de mercado
+  3. Não acessa dados externos em tempo real
+  4. Depende da qualidade dos dados fornecidos
+---
+## Tecnologias Utilizadas
+  1. Python
+  2. Streamlit
+  3. Pandas
+  4. JSON/CSV
+  5. Ollama(IA local) ou API de modelo de linguagem
+---
+## Como executar
+  - Instalar dependências
+    - `pip install - r requirements.txt`
+  - Executar aplicação
+    - `streamlit run src/app.py`
+---
+## Autor
+
+  Projeto desenvolvido como parte de estudo em Inteligência Artificial aplicada a finanças.
+
+
+
 
