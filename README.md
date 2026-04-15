@@ -2,7 +2,7 @@
 
 ## 🧠 Descrição
 
-Esta pasta contém o código fonte do **Orion**, desenvolvido para análise de orçamento pessoal com suporte a processamento local em Python e geração de respostas em linguagem natural. Ele é um agente financeiro inteligente desenvolvido para auxiliar no controle e análise de orçamento pessoal, transforando dados de receitas, despesas e planejamento financeiro em **insights claros, objetivos e acionáveis**, permitindo ao usuário tomar decisões financeiras mais conscientes.
+Esta pasta contém o código fonte do **Orion**, desenvolvido para análise de orçamento pessoal com suporte a processamento local em Python e geração de respostas em linguagem natural. Ele é um agente financeiro inteligente desenvolvido para auxiliar no controle e análise de orçamento pessoal, transformando dados de receitas, despesas e planejamento financeiro em **insights claros, objetivos e acionáveis**, permitindo ao usuário tomar decisões financeiras mais conscientes.
 
 ---
 
@@ -42,14 +42,14 @@ Essa arquitetura reduz custo, melhora performance e aumenta a confiabilidade das
 
 ```bash
 .
-├── data/                 # Base de conhecimento (JSON e CSV)
-├── src/                  # Código da aplicação
-│   ├── app.py
-│   ├── agente.py
-│   ├── analisador.py
-│   ├── carregador_dados.py
-│   └── config.py
-├── requirements.txt
+├── data/                        # Base de conhecimento (JSON e CSV)
+├── src/                         # Código da aplicação
+│   ├── app.py                   # Interface principal em Streamlit
+│   ├── agente.py                # Lógica principal do agente Orion
+│   ├── analisador.py            # Processamento dos dados financeiros
+│   ├── carregador_dados.py      # Leitura dos arquivos JSON e CSV
+│   └── config.py                # Configurações gerais do sistema
+│   └── requirements.txt             # Dependências do projeto
 ```
 ---
 ## Descrição dos Arquivos
@@ -67,19 +67,13 @@ Essa arquitetura reduz custo, melhora performance e aumenta a confiabilidade das
 - ***requirements.txt***
   Lista as bibliotecas necessárias para execução do projeto.
 ---
-## Exemplo de `requirenents.txt`
+## Exemplo de `requirements.txt`
   - `streamlit`
   - `pandas`
   - `python-dotenv`
   - `requests`
 ---
-## Como rodar
 
- - Instalar dependências
-    - `pip install -> requirements.txt`
- - Executar a aplicação
-    - `streamlit run src/app.py`
----
 ## Base de conhecimento
 
   A base de conhecimento do Orion é composta por arquivos estruturados que armazenam dados do usuário e suas finanças.
@@ -98,15 +92,15 @@ Essa arquitetura reduz custo, melhora performance e aumenta a confiabilidade das
 - [x] Comparação entre planejado e realizado
 - [x] Identificação de padrões de consumo
 - [x] Geração de insights financeiros
-- [x] Recomendações práticas para o uusário
+- [x] Recomendações práticas para o usuário
 - [x] Interface Interativa com Streamlit
 ---
-## Exemplo de Analise
+## Exemplo de Análise
 
   - Entrada:
     - Receita: R$ 5.000,00
     - Saída: R$ 625,40
-  - Saída dp Orion:
+  - Saída do Orion:
     - Saldo positivo de R$ 4.374,60
     - Nenhuma categoria ultrapassou o orçamento
     - Situação financeira estável
