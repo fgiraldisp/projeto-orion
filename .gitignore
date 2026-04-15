@@ -1,0 +1,29 @@
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Ferramentas e caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
