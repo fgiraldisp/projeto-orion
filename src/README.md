@@ -92,6 +92,15 @@ Essa arquitetura reduz custo, melhora performance e aumenta a confiabilidade das
   |`categorias_financeiras.json`|JSON|Padroniza categorias financeiras|
   |`historico_interacoes.csv`|CSV|Armazena interações anteriores|
 ---
+## Funcionalidades
+
+[x] Cálculo automático de saldo
+[x] Comparação entre planejado e realizado
+[x] Identificação de padrões de consumo
+[x] Geração de insights financeiros
+[x] Recomendações práticas para o uusário
+[x] Interface Interativa com Streamlit
+---
   
     
 
