@@ -219,6 +219,7 @@ O desenvolvimento do Orion trouxe alguns aprendizados importantes:
 - Python Dotenv
 - Requests
 - OpenAI API
+  
 ---
 
 ## 🚀 Como Executar
