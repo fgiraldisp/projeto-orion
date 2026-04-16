@@ -218,8 +218,8 @@ O desenvolvimento do Orion trouxe alguns aprendizados importantes:
 - CSV
 - Python Dotenv
 - Requests
-- API de modelo de linguagem ou IA local via Ollama
-
+- OpenAI API
+n
 ---
 
 ## 🚀 Como Executar
@@ -258,8 +258,6 @@ Exemplo:
 OPENAI_API_KEY=sua_chave_aqui
 MODEL_NAME=gpt-5.4
 ```
-
-> Caso o projeto esteja configurado para uso com Ollama, ajuste as variáveis conforme a sua implementação local.
 
 ### 5. Executar a aplicação
 ```bash
