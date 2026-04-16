@@ -37,6 +37,16 @@ Neste projeto, não foi utilizada a etapa de feedback humano com avaliadores ext
 
 ---
 
+## Evidência visual de testes de segurança
+
+Os testes de segurança foram ilustrados com captura de tela, pois esse tipo de interação é melhor representado visualmente. Já os testes de análise financeira foram mantidos em formato textual para preservar a clareza dos valores, da estrutura da resposta e da comparação com o comportamento esperado.
+
+<p align="center">
+  <img src="docs/screenshots/testes-seguranca.png" alt="Testes de segurança do Orion" width="900">
+</p>
+
+---
+
 ## Cenários de teste
 
 ### Teste 1 — Consulta de gastos
