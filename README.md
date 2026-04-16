@@ -278,13 +278,17 @@ streamlit run src/app.py
 <p align="center">
   <img src="docs/screenshots/tela-inicial.png" alt="Tela inicial do Orion" width="900">
 </p>
+
 ---
+
 ## 📸 Exemplo de Análise do Orion
 
 <p align="center">
-  <img src="docs/screenshots/exemplo-analise.png" alt="Exemplo de análise do Orion" width="900">
+  <img src="docs/screenshots/exemplo-análise.png" alt="Exemplo de análise do Orion" width="900">
 </p>
+
 ---
+
 ## 🔮 Próximos Passos
 
 Evoluções previstas para o projeto:
